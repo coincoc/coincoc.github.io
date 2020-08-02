@@ -1,0 +1,18 @@
+[
+    {
+        "username":123456,
+        "password":123456,
+        "sex":"男",
+        "years":"18",
+        "address":"xxxxxxxxxxxxxx",
+        "islogin":false
+    },
+    {
+        "username":"abc123",
+        "password":"abc123",
+        "sex":"女",
+        "years":"18",
+        "address":"xxxxxxxxxxxxxx",
+        "islogin":false
+    }
+]

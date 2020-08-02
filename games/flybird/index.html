@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		*{ margin: 0; padding: 0;}
+		#mycanvas{ margin-left: calc(50% - 144px); background: url(img/bg_day.png); position: relative;}
+		#counts{width: 288px; position: absolute; left: calc(50% - 144px); top: 0; text-align: center;}
+		#die{width: 288px; position: absolute; left: calc(50% - 144px); top: 15%; text-align: center; display: none;}
+	</style>
+	<body>
+		<div id="box" onselectstart ='return false' >
+			<canvas id="mycanvas" width="288" height="512"></canvas>
+			<div id="counts">得分：<span id="count">0</span></div>
+			<div id="die">
+				<img src="img/medals_2.png" >
+				<p>得分：123123</p>
+			</div>
+		</div>
+	</body>
+	<script src="./index.js" type="text/javascript" charset="utf-8"></script>
+</html>
